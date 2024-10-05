@@ -3,18 +3,18 @@ import { detailsData } from "../data";
 export const Details = () => {
   return (
     <>
-      <div className="flex items-center justify-center gap-4 p-8 text-black">
-        {detailsData.map((detail) => (
-          <div key={ detail.id } >
+      <div className="md:flex items-center justify-center gap-4 p-20 text-black">
+        { detailsData.map( detail => (
+          <div key={ detail.id } className="flex flex-col items-center justify-items-center space-y-4" >
             <img
-              src={`../public/img/${detail.imageUrl}`}
-              alt={`Imagen de ${detail.title}`}
+              src={`../public/img/${ detail.imageUrl }`}
+              alt={`Imagen de ${ detail.title }`}
               className="w-20 h-auto"
             />
-            <p>{detail.title}</p>
-            <p>{detail.description}</p>
+            <p className="uppercase text-2xl text-center font-bold text-blue-500">{detail.title}</p>
+            <p>{ detail.description }</p>
           </div>
-        ))}
+        )) }
       </div>
     </>
   );
