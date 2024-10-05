@@ -1,4 +1,4 @@
-import { Header } from "./components";
+import { Details, Header, Navbar } from "./components";
 
 
 function App() {
@@ -6,7 +6,9 @@ function App() {
 
   return (
     <>
+      <Navbar />
         <Header />
+        <Details />
     </>
   )
 }
