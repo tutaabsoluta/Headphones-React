@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 body {
-    color: #fff; /* Cambia el color de la fuente a gris oscuro */
-  }
+    color: #fff; 
+}
 
 h1, h2, h3 {
     font-weight: 900;
@@ -24,4 +24,54 @@ img {
     max-width: 100%;
     display: block;
     height: auto;
+}
+
+.modelo {
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 20px;
+    padding-left: 40px;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: 90% center;
+    background-size: 300px;
+}
+
+.listado {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 200px);
+}
+
+.modelo-x {
+    background-image: url('../public/img/modelo-x.svg');
+
+}
+
+.modelo-y {
+    background-image: url('../public/img/modelo-y.svg');
+}
+
+.modelo-z {
+    background-color: cornflowerblue;
+    color: #fff;
+    background-image: url('../public/img/modelo-z.svg');
+}
+
+.modelo-z .precio {
+    font-size: 60px;
+}
+
+.modelo:fist-of-type {
+    margin-bottom: 0;
+}
+
+.precio {
+    font-size: 40px;
+    font-weight: bold;
 }

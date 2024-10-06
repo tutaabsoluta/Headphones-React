@@ -20,4 +20,27 @@ export const detailsData = [
   
 ];
 
+export const productsData = [
+  {
+    id: 1,
+    title: 'TechPRO X',
+    price: '$299',
+    imageUrl: 'modelo-x.svg'
+  },
+
+  {
+    id: 2,
+    title: 'TechPRO Y',
+    price: '$299',
+    imageUrl: 'modelo-y.svg'
+  },
+
+  {
+    id: 3,
+    title: 'TechPRO Z',
+    price: '$299',
+    imageUrl: 'modelo-z.svg'
+  },
+]
+
 
