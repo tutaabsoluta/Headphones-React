@@ -1,13 +1,15 @@
-import { Details, Header, Hero, Navbar, Products } from "./components";
+import { Details, Footer, Header, Hero, Navbar, Newsletter, Products } from "./components";
 
 function App() {
   return (
     <>
-      <Navbar />
       <Header />
+      <Navbar />
       <Details />
       <Hero />
       <Products />
+      <Newsletter />
+      <Footer />
     </>
   );
 }

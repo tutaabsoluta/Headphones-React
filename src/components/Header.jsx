@@ -1,7 +1,7 @@
 
 export const Header = () => {
   return (
-    <>
+    <header className="container mx-auto">
       <div className="bg-slate-900 p-40">
         <div className="container md:grid grid-cols-2 items-center justify-items-center">
         {/* Imagen */}
@@ -18,6 +18,6 @@ export const Header = () => {
             </div>
         </div>
       </div>
-    </>
+    </header>
   );
 }

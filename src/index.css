@@ -42,6 +42,10 @@ img {
     background-size: 300px;
 }
 
+.modelo:hover {
+    background-size: 200px;
+}
+
 .listado {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
