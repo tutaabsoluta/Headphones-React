@@ -11,10 +11,10 @@ export const Header = () => {
 
         {/* Contenido */}
             <div className="space-y-3">
-                <p className="font-bold text-3xl text-center md:text-left">Sonido Profesional</p>
+                <p className="font-bold text-3xl text-center md:text-left">Professional Sound</p>
                 <h1 className=" text-4xl text-center md:text-left md:text-8xl tracking-tighter bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent">TechPRO</h1>
                 <p className="text-center md:text-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam impedit, unde dolore magnam delectus porro aut iste fuga saepe dolorem at facilis, aliquid eius esse quasi recusandae molestiae. Nisi, magni.</p>
-                <p className="text-center md:text-left">Desde <span className="text-5xl font-bold">$399</span></p>
+                <p className="text-center md:text-left">From <span className="text-5xl font-bold">$399</span></p>
             </div>
         </div>
       </div>

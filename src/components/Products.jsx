@@ -2,7 +2,7 @@ import { productsData } from "../data";
 
 export const Products = () => {
   return (
-    <main className="container mx-auto text-blue-500">
+    <main id="pricing" className="container mx-auto text-blue-500">
       <h2 className="tracking-tighter bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent text-center my-8">
         Elige los TechPRO
       </h2>

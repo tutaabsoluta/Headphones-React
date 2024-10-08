@@ -2,12 +2,12 @@ import { detailsData } from "../data";
 
 export const Details = () => {
   return (
-    <section>
+    <section id="about">
       <div className="md:flex gap-4 p-20 text-black mb12">
         { detailsData.map( detail => (
           <div key={ detail.id } className="flex mb-8 md:mb-4 flex-col items-center space-y-4" >
             <img
-              src={`../public/img/${ detail.imageUrl }`}
+              src={`img/${ detail.imageUrl }`}
               alt={`Imagen de ${ detail.title }`}
               className="w-20 h-auto"
             />

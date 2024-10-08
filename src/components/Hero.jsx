@@ -1,12 +1,12 @@
 export const Hero = () => {
   return (
-    <>
+    <section id="services">
       <div className="md:flex">
 
         {/* Sección de texto */}
 
         <div className="md:w-1/2 p-12 bg-blue-500 text-white flex flex-col justify-center">
-          <h3 className="text-5xl font-bold mb-4 text-center lg:text-left">Sobre los TechPRO</h3>{" "}
+          <h3 className="text-5xl font-bold mb-4 text-center lg:text-left">About the TechPRO</h3>{" "}
           <p className="text-lg leading-relaxed textce">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis at
             explicabo esse asperiores? Aspernatur, deserunt et, consectetur hic
@@ -35,12 +35,12 @@ export const Hero = () => {
         {/* Sección de imagen */}
         <div className="md:w-1/2">
           <img
-            src="../public/img/imagen-mujer.jpg"
+            src="img/imagen-mujer.jpg"
             alt="Imagen de una mujer con audífonos"
             className="w-full h-full object-cover"
           />
         </div>
       </div>
-    </>
+    </section>
   );
 };

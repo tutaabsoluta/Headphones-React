@@ -21,16 +21,16 @@ export const Newsletter = () => {
   }
 
   return (
-    <section className="container mx-auto my-12">
+    <section id="contact" className="container mx-auto my-12">
       <div className="flex items-center justify-center flex-col  md:flex-row text-black">
         <img
-          src="../public/img/newsletter.jpg"
+          src="img/newsletter.jpg"
           alt="A woman with some headphones"
           className="w-96"
         />
 
         <div className="p-4">
-          <h2 className="text-center lg:text-left lg:ml-4 tracking-tighter text-3xl lg:text-5xl">Recibe Actualizaciones</h2>
+          <h2 className="text-center lg:text-left lg:ml-4 tracking-tighter text-3xl lg:text-5xl capitalize">Stay up to date</h2>
           <p className="mb-4 lg:ml-4 p-4 text-center md:text-left">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
             debitis adipisci qui, labore facilis ipsum! .
@@ -50,7 +50,7 @@ export const Newsletter = () => {
             </button>
 
             {
-              error && <Error>Completa el campo del Email</Error>
+              error && <Error>Complete the email field</Error>
             }
 
           </div>
