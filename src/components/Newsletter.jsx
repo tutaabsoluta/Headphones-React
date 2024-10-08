@@ -1,18 +1,18 @@
 export const Newsletter = () => {
   return (
     <section className="container mx-auto my-12">
-      <div className="flex items-center justify-center gap-12 text-black">
+      <div className="flex items-center justify-center flex-col  md:flex-row text-black">
         <img
           src="../public/img/newsletter.jpg"
           alt="A woman with some headphones"
           className="w-96"
         />
 
-        <div>
-          <h2 className="tracking-tighter">Recibe Actualizaciones</h2>
-          <p className="mb-4">
+        <div className="p-4">
+          <h2 className="text-center lg:text-left lg:ml-4 tracking-tighter text-3xl lg:text-5xl">Recibe Actualizaciones</h2>
+          <p className="mb-4 lg:ml-4 p-4 text-center md:text-left">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laudantium
-            debitis adipisci qui, labore facilis ipsum! Vel, ad delectus.
+            debitis adipisci qui, labore facilis ipsum! .
           </p>
 
           <div className="flex flex-col">

@@ -46,6 +46,16 @@ img {
     background-size: 200px;
 }
 
+@media (max-width: 768px) {
+    .modelo {
+        background-size: 100px;
+    }
+    .modelo:hover {
+        background-size: 120px;
+    }
+}
+
+
 .listado {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

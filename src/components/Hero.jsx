@@ -1,20 +1,20 @@
 export const Hero = () => {
   return (
     <>
-      <div className="flex">
+      <div className="md:flex">
 
         {/* Sección de texto */}
 
-        <div className="w-1/2 p-12 bg-blue-500 text-white flex flex-col justify-center">
-          <h3 className="text-5xl font-bold mb-4">Sobre los TechPRO</h3>{" "}
-          <p className="text-lg leading-relaxed">
+        <div className="md:w-1/2 p-12 bg-blue-500 text-white flex flex-col justify-center">
+          <h3 className="text-5xl font-bold mb-4 text-center lg:text-left">Sobre los TechPRO</h3>{" "}
+          <p className="text-lg leading-relaxed textce">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis at
             explicabo esse asperiores? Aspernatur, deserunt et, consectetur hic
             accusantium harum ad asperiores aliquid debitis odit modi? Fugit
             corrupti earum saepe.
           </p>
           <div>
-            <button className="bg-slate-700 p-4 rounded-lg mt-4 hover:bg-slate-900 duration-300 flex items-center">
+            <button className="bg-slate-700 p-4 rounded-lg mt-4 hover:bg-slate-900 duration-300 flex items-center justify-center w-full md:w-auto">
               More Info
               <svg
                 className="w-5 h-5 ml-2 -mr-1"
@@ -33,7 +33,7 @@ export const Hero = () => {
         </div>
         
         {/* Sección de imagen */}
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           <img
             src="../public/img/imagen-mujer.jpg"
             alt="Imagen de una mujer con audífonos"

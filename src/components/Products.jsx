@@ -8,21 +8,21 @@ export const Products = () => {
       </h2>
 
       {/* Grid para modelos */}
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:grid-rows-2 md:grid-flow-col">
+      <div className="grid grid-cols-1 gap-8 md:grid-cols-2 md:grid-rows-2 md:grid-flow-col mx-8 lg:mx-0">
         {/* Modelo X - Columna derecha, fila superior */}
-        <div className="modelo modelo-x hover:scale-110 duration-300 mr-12">
-          <h3 className="text-4xl">TechPRO X</h3>
+        <div className="modelo modelo-x hover:scale-110 duration-300 lg:mr-12">
+          <h3 className="text-2xl lg:text-4xl">TechPRO X</h3>
           <p className="precio">$299</p>
         </div>
 
         {/* Modelo Y - Columna derecha, fila inferior */}
-        <div className="modelo modelo-y hover:scale-110 duration-300 mr-12">
-          <h3 className="text-4xl">TechPRO Y</h3>
+        <div className="modelo modelo-y hover:scale-110 duration-300 lg:mr-12">
+          <h3 className="text-2xl lg:text-4xl">TechPRO Y</h3>
           <p className="precio">$399</p>
         </div>
         {/* Modelo Z - Ocupa las dos filas de la primera columna */}
         <div className="modelo modelo-z md:row-span-2 hover:scale-110 duration-300">
-          <h3 className="text-4xl">TechPRO Z</h3>
+          <h3 className="text-2xl lg:text-4xl">TechPRO Z</h3>
           <p className="precio">$499</p>
         </div>
       </div>
