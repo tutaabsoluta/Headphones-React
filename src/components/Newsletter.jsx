@@ -1,4 +1,25 @@
+import { useState } from "react";
+import { Error } from "./Error";
+
 export const Newsletter = () => {
+
+  const [email, setEmail] = useState('');
+  const [error, setError] = useState(false);
+
+  const onEmailChange = ({ target }) => {
+    const { value } = target;
+    setEmail( value )
+  }
+
+  const onSubmit = ( e ) => {
+    e.preventDefault();
+    if ( [email].includes('') ) {
+      setError( true )
+    }setTimeout(() => {
+      setError( false );
+    }, 2000);
+  }
+
   return (
     <section className="container mx-auto my-12">
       <div className="flex items-center justify-center flex-col  md:flex-row text-black">
@@ -21,10 +42,17 @@ export const Newsletter = () => {
               name="input"
               placeholder="Your Email"
               className="border-t border-x rounded-tl-lg rounded-tr-lg p-4"
+              value={ email }
+              onChange={ onEmailChange }
             />
-            <button className="block p-4 bg-blue-500 hover:bg-blue-600 uppercase duration-300 text-white font-bold text-2xl">
+            <button onClick={ onSubmit } className="block p-4 bg-blue-500 hover:bg-blue-600 uppercase duration-300 text-white font-bold text-2xl">
               Subscribe
             </button>
+
+            {
+              error && <Error>Completa el campo del Email</Error>
+            }
+
           </div>
         </div>
       </div>
