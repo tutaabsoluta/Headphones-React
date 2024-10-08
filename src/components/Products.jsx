@@ -4,7 +4,7 @@ export const Products = () => {
   return (
     <main id="pricing" className="container mx-auto text-blue-500">
       <h2 className="tracking-tighter bg-gradient-to-r from-green-500 to-blue-500 bg-clip-text text-transparent text-center my-8">
-        Elige los TechPRO
+        Choose your TechPRO
       </h2>
 
       {/* Grid para modelos */}
