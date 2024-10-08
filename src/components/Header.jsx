@@ -6,7 +6,7 @@ export const Header = () => {
         <div className="container xl:grid grid-cols-2 items-center justify-items-center">
         {/* Imagen */}
             <div>
-                <img src="../public/img/header.png" alt="Imagen de unos Headphones" className="mt-12 md:mt-0" />
+                <img src="img/header.png" alt="Imagen de unos Headphones" className="mt-12 md:mt-0" />
             </div>
 
         {/* Contenido */}
